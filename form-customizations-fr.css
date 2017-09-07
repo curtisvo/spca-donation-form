@@ -1,0 +1,106 @@
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] {
+		border: none;
+		color: white;
+		background: none;
+		padding: 0;
+}
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormFieldLabel {
+		color: white;
+		font-style: italic;
+		font-weight: bold;
+}
+
+/* recurring section */
+#bboxdonation_recurrence_lblRecurringGift {
+	font-size: large;
+}
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormFieldRecurrenceInfo {
+	font-size: 1em;
+}
+
+#bboxdonation_tribute_lblTributeGift, 
+#bboxdonation_billing_lblOrgGift,
+#bboxdonation_billing_lblAnonymous,
+#bboxdonation_recurrence_lblRecurringGift,
+#bboxdonation_tribute_lblTributeAcknowledgee {
+		font-style: normal;
+}
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevel {
+		margin-right: 10px;
+}
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
+		background: none;
+		border-color: white;
+		color: white;
+}
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
+		border-color: white;
+		background-color: #b72236;
+}
+
+/* put comment box back to the left */
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBDFormSectionComments .BBFormFieldLabel {
+		margin-left: 0;
+}
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBDFormSectionComments .BBFormTextArea {
+		margin-left: 0;
+}
+
+/* hide section heading */
+.BBFormSectionHeading {
+		display: none;
+}
+	
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormSubmitbutton {
+		box-shadow: none;
+		background-color: #b72236;
+}
+
+/* fix width of form elements */
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormTextbox, 
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormSelectList, 
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormTextArea, 
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormChecklist {
+		max-width: 650px;
+}
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBThreeFields .BBFormTextbox {
+		max-width: 170px;
+}
+
+.BBLinkSecureInfo { 
+		color: white;
+		font-weight: bold;
+}
+
+#bboxdonation_recurrence_divRecurrenceInfo {
+		color: white;
+}
+
+/* fix error display */
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock,
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock.BBFormInlineError.BBFieldExpiration,
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock.BBFormInlineError.BBFieldSecurityCode, 
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock.BBFormInlineError.BBFormFieldContainerGivingLevels {
+		padding-left: 0px;
+}
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock {
+		background-color: transparent;
+		border: none;
+}
+
+.BBFormInlineErrorItem {
+		background-color: #FFEE9B;
+		border: 1px solid #B45F41;
+		border-radius: 5px;
+		margin-top: 10px;
+}
+
+/* hide error message div */
+#divClientError {
+	display: none;
+}
