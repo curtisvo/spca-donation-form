@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
 			html = html.replace('In Honor of', 'En l\'honneur de');
 			html = html.replace('In Memory of', 'À la mémoire de');
 			return html;
-		}
+		});
 		
 		$('#bboxdonation_tribute_txtTributeRecordName').attr('placeholder', 'Nom complet');
 		$('#bboxdonation_tribute_lblTributeAcknowledgee').html('SVP veuillez aviser la personne suivante de mon don');
