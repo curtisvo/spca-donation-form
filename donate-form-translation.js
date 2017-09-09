@@ -44,6 +44,13 @@ jQuery(document).ready(function($) {
 
 		$('#bboxdonation_comment_txtComments').attr('placeholder', 'Optionnel');
 		
+                $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel <span class='uniqueText'>(Décocher pour faire un don unique)</span>");
+		// auto check monthly gift, display recurrence info
+		$('#bboxdonation_recurrence_chkMonthlyGift').attr('checked', true);
+		$('.BBFormFieldRecurrenceInfo').css('display', 'block');
+
+		// wait till form loads to display footer
+		$('.footer').css('display', 'inline');
 	});
 	
 	// CSC popup content doesn't appear until link is clicked
