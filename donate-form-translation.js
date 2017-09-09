@@ -24,11 +24,8 @@ jQuery(document).ready(function($) {
 		    return html;
 		});
 
-		$('bboxdonation_tribute_ddTributeTypes').html(function(index,html) {
-			html = html.replace('In Honor of', 'En l\'honneur de');
-			html = html.replace('In Memory of', 'À la mémoire de');
-			return html;
-		});
+		$('#bboxdonation_tribute_ddTributeTypes option[value="387"]').html('En l\'honneur de');
+		$('#bboxdonation_tribute_ddTributeTypes option[value="388"]').html('À la mémoire de');
 		
 		$('#bboxdonation_tribute_txtTributeRecordName').attr('placeholder', 'Nom complet');
 		$('#bboxdonation_tribute_lblTributeAcknowledgee').html('SVP veuillez aviser la personne suivante de mon don');
@@ -38,6 +35,8 @@ jQuery(document).ready(function($) {
 		
 		$('#bboxdonation_billing_txtLastName').attr('placeholder', 'Nom de famille');
 		$('#bboxdonation_tribute_txtLastName').attr('placeholder', 'Nom de famille');
+
+		$('#bboxdonation_billing_txtPhone').attr('placeholder', 'Optionnel');
 		
 		$('#bboxsecure').html('Les paiements sont traités par Blackbaud');
 		
