@@ -102,5 +102,5 @@
 
 /* hide error message div */
 #divClientError {
-	display: none;
+	display: none !important;
 }
