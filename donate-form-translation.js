@@ -1,3 +1,4 @@
+(function($) {
 jQuery(document).ready(function($) {
 	$('body #mongo-form').waitUntilExists(function() {
 		
@@ -70,3 +71,4 @@ jQuery(document).ready(function($) {
 		$('#cluetip-inner .DonationHelpFormCSCTable p:nth-of-type(4)').html("Copyright Â© 2016 Blackbaud, Inc. Tous droits rÃ©servÃ©s.");	
 	});
 });
+}) ( jQuery );
