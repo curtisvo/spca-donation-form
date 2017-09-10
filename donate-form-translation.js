@@ -55,8 +55,6 @@ jQuery(document).ready(function($) {
 		$('#bboxdonation_recurrence_chkMonthlyGift').attr('checked', true);
 		$('.BBFormFieldRecurrenceInfo').css('display', 'block');
 
-		// wait till form loads to display footer
-		$('.footer').css('display', 'inline');
 	});
 	
 	// CSC popup content doesn't appear until link is clicked
