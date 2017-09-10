@@ -5,10 +5,10 @@ div .container {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		background-position: center;
 		font-family: 'Roboto', sans-serif;
 		display: table;
 		width: 100%;
+		min-height: 700px;
 }
 
 /*
