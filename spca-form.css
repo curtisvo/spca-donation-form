@@ -72,6 +72,8 @@ div .container {
 
 .phone-img {
 	display: table-cell;
+}
+.phone-img img {
 	margin-right: 15px;
 }
 .text-div {
