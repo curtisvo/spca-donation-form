@@ -75,7 +75,11 @@
 		color: white;
 		font-weight: bold;
 }
-
+/*
+.BBLinkSecureInfo:before {
+       content: url('');
+}
+*/
 #bboxdonation_recurrence_divRecurrenceInfo {
 		color: white;
 }
