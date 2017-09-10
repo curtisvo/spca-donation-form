@@ -73,7 +73,7 @@ div .container {
 		display: block;
 		float: left;
 		margin-right: 15px;
-		margin-top: -14px;
+		margin-top: -6px;
 }
 
 .footer {
@@ -86,4 +86,9 @@ div .container {
 .uniqueText {
 	font-weight: normal;
 	font-style: italic;
+}
+
+/* hide wordpress's automatic p elements */
+body p {
+	display: none;
 }
