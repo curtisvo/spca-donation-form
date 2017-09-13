@@ -81,5 +81,23 @@ jQuery(document).ready(function($) {
 		$('#cluetip-inner .DonationHelpFormCSCTable p:nth-of-type(3)').html("Au service des secteurs à but non lucratif et de l'éducation depuis 30 ans, Blackbaud (NASDAQ: BLKB) allie technologie et expertise pour aider les organisations à réaliser leurs missions. Blackbaud travaille avec plus de 27 000 clients dans plus de 60 pays qui soutiennent l'enseignement supérieur, les soins de santé, les services sociaux, les arts et la culture, la foi, l'environnement, l'éducation K-12 indépendante, le bien-être animal et d'autres causes caritatives. Blackbaud est basée à Charleston, S.C., et a des opérations aux États-Unis, en Australie, au Canada, au Mexique, aux Pays-Bas et au Royaume-Uni. Pour plus d'informations, visitez www.blackbaud.com.");
 		$('#cluetip-inner .DonationHelpFormCSCTable p:nth-of-type(4)').html("Copyright 2016 Blackbaud, Inc. Tous droits réservés.");	
 	});
+
+	$('body #bboxdonation_divThanks').waitUntilExists(function() {
+		$('.GLShareHeader').html('Help start a givalanche of good');
+		$('.GLBodyText').html(function(index,html){
+		    html = html.replace('Share & ask your friends and family to chip in.','Partagez & demandez à vos amis de participer.');
+		    html =  html.replace('As others give, your gift will snowball into a Givalanche.','test-');
+		    return html.replace('We\'ll keep you updated as your Givalanche grows!','test-We\'ll keep you updated as your Givalanche grows!');
+		});
+		$('.GLShareTitle').html('Share to get the Givalanche rolling:');
+		$('.GLCopyLinkButtonText').html('Copier le lien');
+		$('div.BBFormConfirmationTransactionDetails span').html(function(index, html){
+			html = html.replace('Your gift details:', 'Détails de votre don:');
+			html = html.replace('Amount:', 'Montant:');
+			html = html.replace('Payment Method:', 'Méthode de paiement:');
+			html = html.replace('Designation:', 'Appellation:');
+		});
+		$('#difference-text').hide();
+	});
 });
 }) ( jQuery );

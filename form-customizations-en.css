@@ -108,3 +108,7 @@
 #divClientError {
 	display: none !important;
 }
+
+#bboxdonation_divThanks p {
+	display: inline;
+}
