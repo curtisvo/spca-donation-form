@@ -97,7 +97,7 @@ div .container {
 	font-style: italic;
 }
 
-/* hide wordpress's automatic p elements */
-body p {
+/* hide wordpress's automatic p elements causing whitespace */
+#main > p {
 	display: none;
 }
