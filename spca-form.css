@@ -56,7 +56,7 @@ div .container {
 		left: 5%;
 		width: 500px;
 		padding-top: 2em;
-		min-height: 1500px;
+		min-height: 1550px;
 }
 
 .phone-gift {
@@ -93,8 +93,10 @@ div .container {
 }
 
 .uniqueText {
+	font-size: smaller;
 	font-weight: normal;
 	font-style: italic;
+	padding-left: 20px;
 }
 
 /* hide wordpress's automatic p elements causing whitespace */
