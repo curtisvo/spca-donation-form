@@ -109,8 +109,8 @@
 	display: none !important;
 }
 
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock {
-	color: white;
+.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormServerErrorItem {
+	color: yellow;
 	font-size: large;
 }
 
