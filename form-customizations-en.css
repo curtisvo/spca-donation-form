@@ -108,3 +108,9 @@
 #divClientError {
 	display: none !important;
 }
+
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormErrorBlock {
+	color: white;
+	font-size: large;
+}
+
