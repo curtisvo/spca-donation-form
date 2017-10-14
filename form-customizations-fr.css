@@ -1,8 +1,8 @@
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] {
-		border: none;
-		color: white;
-		background: none;
-		padding: 0;
+		border: none !important;
+		color: white !important;
+		background: none !important;
+		padding: 0 !important;
 }
 
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormFieldLabel {
