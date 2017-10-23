@@ -1,12 +1,10 @@
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] {
 		border: none !important;
-		color: white !important;
 		background: none !important;
 		padding: 0 !important;
 }
 
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormFieldLabel {
-		color: white;
 		font-style: italic;
 		font-weight: bold;
 }
@@ -31,14 +29,7 @@
 		margin-right: 10px;
 }
 
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
-		background: none;
-		border-color: white;
-		color: white;
-}
-
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
-		border-color: white;
 		background-color: #b72236;
 }
 
@@ -60,24 +51,12 @@
 		background-color: #b72236;
 }
 
-/* fix width of form elements */
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormTextbox, 
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormSelectList, 
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormTextArea, 
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormChecklist {
-		max-width: 650px;
-}
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBThreeFields .BBFormTextbox {
 		max-width: 170px;
 }
 
 .BBLinkSecureInfo { 
-		color: white;
 		font-weight: bold;
-}
-
-#bboxdonation_recurrence_divRecurrenceInfo {
-		color: white;
 }
 
 /* fix error display */
