@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
 		$('#bboxdonation_recurrence_lblRecurringGift').html('Donnez mensuellement');
 		
 		$('#lblRecurrenceNextGiftDate').html(function(index,html){
-		    return html.replace('Your first gift will occur on','Votre premier don aurai lieu le');
+		    return html.replace('Your first gift will occur on','Votre premier don sera prélevé le');
 		});
 		
 		$('#bboxdonation_recurrence_divRecurrenceInfo').html(function(index,html){
@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
 		$('#bboxdonation_comment_txtComments').attr('placeholder', 'Optionnel');
 		
-                $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel<br/><span class='uniqueText'>(Décocher pour faire un don unique)</span>");
+                $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel<br/><span class='uniqueText'>(Décochez pour faire un don unique)</span>");
 		// auto check monthly gift, display recurrence info
 		$('#bboxdonation_recurrence_chkMonthlyGift').attr('checked', true);
 		$('.BBFormFieldRecurrenceInfo').css('display', 'block');
