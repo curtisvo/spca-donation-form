@@ -82,11 +82,10 @@
 }
 
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormServerErrorItem {
-	color: yellow;
+	color: darkred;
 	font-size: large;
 }
 
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormConfirmation {
 	font-size: x-large;
-	padding-top: 20%;
 }
