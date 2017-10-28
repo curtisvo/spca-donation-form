@@ -54,9 +54,12 @@ div .container {
 .form-div {
 		position: relative;
 		left: 5%;
-		width: 500px;
 		padding-top: 2em;
 		min-height: 1550px;
+}
+
+.donate-form {
+	width: 500px;
 }
 
 .phone-gift {
