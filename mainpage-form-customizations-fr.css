@@ -31,6 +31,7 @@
 
 .BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
 		background-color: #b72236;
+		border: 1px solid #666;
 }
 
 /* put comment box back to the left */

@@ -1,12 +1,10 @@
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] {
 		border: none !important;
-		color: white !important;
 		background: none !important;
 		padding: 0 !important;
 }
 
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormFieldLabel {
-		color: white;
 		font-style: italic;
 		font-weight: bold;
 }
@@ -31,15 +29,9 @@
 		margin-right: 10px;
 }
 
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
-		background: none;
-		border-color: white;
-		color: white;
-}
-
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
-		border-color: white;
 		background-color: #b72236;
+		border: 1px solid #666;
 }
 
 /* put comment box back to the left */
@@ -60,28 +52,8 @@
 		background-color: #b72236;
 }
 
-/* fix width of form elements */
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormTextbox, 
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormSelectList, 
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormTextArea, 
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormChecklist {
-		max-width: 650px;
-}
-.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBThreeFields .BBFormTextbox {
-		max-width: 170px;
-}
-
 .BBLinkSecureInfo { 
-		color: white;
 		font-weight: bold;
-}
-/*
-.BBLinkSecureInfo:before {
-       content: url('');
-}
-*/
-#bboxdonation_recurrence_divRecurrenceInfo {
-		color: white;
 }
 
 /* fix error display */
@@ -109,13 +81,12 @@
 	display: none !important;
 }
 
-.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormServerErrorItem {
+.BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormServerErrorItem {
 	color: yellow;
 	font-size: large;
 }
 
 .BBFormContainer[data-bbox-part-id="12ba11c6-e66c-47a9-8ebf-713a0a6f0ce6"] .BBFormConfirmation {
-        font-size: x-large;
-        padding-top: 20%;
+	font-size: x-large;
+	padding-top: 20%;
 }
-
