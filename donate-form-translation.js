@@ -101,7 +101,18 @@ jQuery(document).ready(function($) {
 	});
 
 	$('body .BBFormInlineErrorItem').waitUntilExists(function() {
-		$('div[aria-label="Please enter first name"]').html('Veuillez entrer votre prénom');
+		$('div[aria-label="Please enter first name"]').html('Veuillez indiquer votre prénom');
+		$('div[aria-label="Please enter last name"]').html('Veuillez indiquer votre nom');
+		$('div[aria-label="Please enter courriel"]').html('Veuillez indiquer votre adresse courriel');
+		$('div[aria-label="Please enter adress"]').html('Veuillez indiquer votre adresse');
+		$('div[aria-label="Please enter ville"]').html('Veuillez indiquer votre ville');
+		$('div[aria-label="Please select province"]').html('Veuillez sélectionner votre province');
+		$('div[aria-label="Please enter postal code"]').html('Veuillez indiquer votre code postal');
+		$('div[aria-label="Please enter nom du détenteur de la carte"]').html('Veuillez indiquer le nom du détenteur de la carte');
+		$('div[aria-label="Please enter numéro de la carte"]').html('Veuillez indiquer le numéro de la carte');
+		$('div[aria-label="Please select month"]').html('Veuillez sélectionner le mois');
+		$('div[aria-label="Please select year"]').html('Veuillez sélectionner l\'année');
+		$('div[aria-label="Please enter csc"]').html('Veuillez indiquer le csc');
 	});
 });
 }) ( jQuery );
