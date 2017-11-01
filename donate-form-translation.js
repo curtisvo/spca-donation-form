@@ -104,15 +104,27 @@ jQuery(document).ready(function($) {
 		$('div[aria-label="Please enter first name"]').html('Veuillez indiquer votre prénom');
 		$('div[aria-label="Please enter last name"]').html('Veuillez indiquer votre nom');
 		$('div[aria-label="Please enter courriel"]').html('Veuillez indiquer votre adresse courriel');
-		$('div[aria-label="Please enter adress"]').html('Veuillez indiquer votre adresse');
+		$('div[aria-label="Please enter adresse"]').html('Veuillez indiquer votre adresse');
 		$('div[aria-label="Please enter ville"]').html('Veuillez indiquer votre ville');
 		$('div[aria-label="Please select province"]').html('Veuillez sélectionner votre province');
-		$('div[aria-label="Please enter postal code"]').html('Veuillez indiquer votre code postal');
+		$('div[aria-label="Please enter postal"]').html('Veuillez indiquer votre code postal');
 		$('div[aria-label="Please enter nom du détenteur de la carte"]').html('Veuillez indiquer le nom du détenteur de la carte');
 		$('div[aria-label="Please enter numéro de la carte"]').html('Veuillez indiquer le numéro de la carte');
 		$('div[aria-label="Please select month"]').html('Veuillez sélectionner le mois');
 		$('div[aria-label="Please select year"]').html('Veuillez sélectionner l\'année');
 		$('div[aria-label="Please enter csc"]').html('Veuillez indiquer le csc');
+	});
+
+	$('body #divError').waitUntilExists(function() {
+		$('.BBFormServerErrorItem').each(function() {
+			$(this).html(function(index, html) {
+				html = html.replace('We\'ve run into a slight problem. Correct the following to continue:', 'Veuillez corriger les erreurs suivants pour continuer:');
+				html = html.replace('Please specify a valid téléphone', 'Veuiller indiquer un numéro de téléphone valide');
+				html = html.replace('Card number is not valid', 'Le numéro de la carte n\'est pas valide');
+				html = html.replace('One or more fields in the request contains invalid data', 'Un ou plusieurs champs du formulaire continnent des données invalide')
+				html = html.replace('Please call the number on the back of your card. Your bank requested that we do not honor this card.', 'Veuillez appeler le numéro derrière la carte. La banque demande que cette carte ne soit pas accepté');
+			});
+		})
 	});
 });
 }) ( jQuery );
