@@ -99,5 +99,9 @@ jQuery(document).ready(function($) {
 		});
 		$('#difference-text').hide();
 	});
+
+	$('body .BBFormInlineErrorItem').waitUntilExists(function() {
+		$('div[aria-label="Please enter first name"]').html('Veuillez entrer votre prénom');
+	});
 });
 }) ( jQuery );
