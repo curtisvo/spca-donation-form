@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 				html = html.replace('Please specify a valid téléphone', 'Veuiller indiquer un numéro de téléphone valide');
 				html = html.replace('Card number is not valid', 'Le numéro de la carte n\'est pas valide');
 				html = html.replace('One or more fields in the request contains invalid data', 'Un ou plusieurs champs du formulaire contiennent des données invalide')
-				html = html.replace('Please call the number on the back of your card.  Your bank requested that we do not honor this card.', 'Veuillez appeler le numéro derrière la carte. La banque demande que cette carte ne soit pas accepté');
+				html = html.replace('Please call the number on the back of your card.  Your bank requested that we do not honor this card.', 'Veuillez appeler le numéro au dos de votre carte.  Votre banque ne nous permet pas d\'accepter ce paiement');
 				html = html.replace('Expired card.', 'La carte est expiré.');
 				return html;
 			});
