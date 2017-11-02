@@ -116,6 +116,7 @@ jQuery(document).ready(function($) {
 	});
 
 	$('body #divError').waitUntilExists(function() {
+		$('div[aria-label="Please specify a valid téléphone"]').html('Veuillez indiquer un numéro de téléphone valide');
 		$('.BBFormServerErrorItem').each(function() {
 			$(this).html(function(index, html) {
 				html = html.replace('We\'ve run into a slight problem. Correct the following to continue:', 'Veuillez corriger les erreurs suivants pour continuer:');
@@ -123,6 +124,7 @@ jQuery(document).ready(function($) {
 				html = html.replace('Card number is not valid', 'Le numéro de la carte n\'est pas valide');
 				html = html.replace('One or more fields in the request contains invalid data', 'Un ou plusieurs champs du formulaire continnent des données invalide')
 				html = html.replace('Please call the number on the back of your card. Your bank requested that we do not honor this card.', 'Veuillez appeler le numéro derrière la carte. La banque demande que cette carte ne soit pas accepté');
+				return html;
 			});
 		})
 	});
