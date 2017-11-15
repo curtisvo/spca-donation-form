@@ -1,0 +1,121 @@
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] {
+		border: none !important;
+		color: white !important;
+		background: none !important;
+		padding: 0 !important;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormFieldLabel {
+		color: white;
+		font-style: italic;
+		font-weight: bold;
+}
+
+/* recurring section */
+#bboxdonation_recurrence_lblRecurringGift {
+	font-size: large;
+}
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormFieldRecurrenceInfo {
+	font-size: 1em;
+}
+
+#bboxdonation_tribute_lblTributeGift, 
+#bboxdonation_billing_lblOrgGift,
+#bboxdonation_billing_lblAnonymous,
+#bboxdonation_recurrence_lblRecurringGift,
+#bboxdonation_tribute_lblTributeAcknowledgee {
+		font-style: normal;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevel {
+		margin-right: 10px;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
+		background: none;
+		border-color: white;
+		color: white;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
+		border-color: white;
+		background-color: #b72236;
+}
+
+/* put comment box back to the left */
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBDFormSectionComments .BBFormFieldLabel {
+		margin-left: 0;
+}
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBDFormSectionComments .BBFormTextArea {
+		margin-left: 0;
+}
+
+/* hide section heading */
+.BBFormSectionHeading {
+		display: none;
+}
+	
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormSubmitbutton {
+		box-shadow: none;
+		background-color: #b72236;
+}
+
+/* fix width of form elements */
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormTextbox, 
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormSelectList, 
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormTextArea, 
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormChecklist {
+		max-width: 650px;
+}
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBThreeFields .BBFormTextbox {
+		max-width: 170px;
+}
+
+.BBLinkSecureInfo { 
+		color: white;
+		font-weight: bold;
+}
+/*
+.BBLinkSecureInfo:before {
+       content: url('');
+}
+*/
+#bboxdonation_recurrence_divRecurrenceInfo {
+		color: white;
+}
+
+/* fix error display */
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock,
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFieldExpiration,
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFieldSecurityCode, 
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFormFieldContainerGivingLevels {
+		padding-left: 0px;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock {
+		background-color: transparent;
+		border: none;
+}
+
+.BBFormInlineErrorItem {
+		background-color: #FFEE9B;
+		border: 1px solid #B45F41;
+		border-radius: 5px;
+		margin-top: 10px;
+}
+
+/* hide error message div */
+#divClientError {
+	display: none !important;
+}
+
+.BBFormContainer[data-bbox-part-id="92553bab-611d-4ffb-92be-617c81a14368"] .BBFormServerErrorItem {
+	color: yellow;
+	font-size: large;
+}
+
+.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormConfirmation {
+        font-size: x-large;
+        padding-top: 20%;
+}
+
