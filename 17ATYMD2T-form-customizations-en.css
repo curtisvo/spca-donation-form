@@ -1,11 +1,11 @@
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] {
+.BBFormContainer[data-bbox-part-id] {
 		border: none !important;
 		color: white !important;
 		background: none !important;
 		padding: 0 !important;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormFieldLabel {
+.BBFormContainer[data-bbox-part-id] .BBFormFieldLabel {
 		color: white;
 		font-style: italic;
 		font-weight: bold;
@@ -15,7 +15,7 @@
 #bboxdonation_recurrence_lblRecurringGift {
 	font-size: large;
 }
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormFieldRecurrenceInfo {
+.BBFormContainer[data-bbox-part-id] .BBFormFieldRecurrenceInfo {
 	font-size: 1em;
 }
 
@@ -27,26 +27,26 @@
 		font-style: normal;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevel {
+.BBFormContainer[data-bbox-part-id] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevel {
 		margin-right: 10px;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
+.BBFormContainer[data-bbox-part-id] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelNotSelected {
 		background: none;
 		border-color: white;
 		color: white;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
+.BBFormContainer[data-bbox-part-id] [data-style="Narrow_Buttons"] .BBFormRadioLabelGivingLevelSelected {
 		border-color: white;
 		background-color: #b72236;
 }
 
 /* put comment box back to the left */
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBDFormSectionComments .BBFormFieldLabel {
+.BBFormContainer[data-bbox-part-id] .BBDFormSectionComments .BBFormFieldLabel {
 		margin-left: 0;
 }
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBDFormSectionComments .BBFormTextArea {
+.BBFormContainer[data-bbox-part-id] .BBDFormSectionComments .BBFormTextArea {
 		margin-left: 0;
 }
 
@@ -55,19 +55,19 @@
 		display: none;
 }
 	
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormSubmitbutton {
+.BBFormContainer[data-bbox-part-id] .BBFormSubmitbutton {
 		box-shadow: none;
 		background-color: #b72236;
 }
 
 /* fix width of form elements */
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormTextbox, 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormSelectList, 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormTextArea, 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormChecklist {
+.BBFormContainer[data-bbox-part-id] .BBFormTextbox, 
+.BBFormContainer[data-bbox-part-id] .BBFormSelectList, 
+.BBFormContainer[data-bbox-part-id] .BBFormTextArea, 
+.BBFormContainer[data-bbox-part-id] .BBFormChecklist {
 		max-width: 650px;
 }
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBThreeFields .BBFormTextbox {
+.BBFormContainer[data-bbox-part-id] .BBThreeFields .BBFormTextbox {
 		max-width: 170px;
 }
 
@@ -85,14 +85,14 @@
 }
 
 /* fix error display */
-.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock,
-.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFieldExpiration,
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFieldSecurityCode, 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock.BBFormInlineError.BBFormFieldContainerGivingLevels {
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id] .BBFormErrorBlock,
+.BBFormContainer.BBFormWidthNarrow-Less600[data-bbox-part-id] .BBFormErrorBlock.BBFormInlineError.BBFieldExpiration,
+.BBFormContainer[data-bbox-part-id] .BBFormErrorBlock.BBFormInlineError.BBFieldSecurityCode, 
+.BBFormContainer[data-bbox-part-id] .BBFormErrorBlock.BBFormInlineError.BBFormFieldContainerGivingLevels {
 		padding-left: 0px;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormErrorBlock {
+.BBFormContainer[data-bbox-part-id] .BBFormErrorBlock {
 		background-color: transparent;
 		border: none;
 }
@@ -114,7 +114,7 @@
 	font-size: large;
 }
 
-.BBFormContainer[data-bbox-part-id="7ef4266e-50a2-4580-b9d6-0e7cdf31bde2"] .BBFormConfirmation {
+.BBFormContainer[data-bbox-part-id] .BBFormConfirmation {
         font-size: x-large;
         padding-top: 20%;
 }
