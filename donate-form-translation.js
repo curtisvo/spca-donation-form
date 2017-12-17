@@ -51,10 +51,6 @@ jQuery(document).ready(function($) {
 		$('#bboxdonation_comment_txtComments').attr('placeholder', 'Optionnel');
 		
                 $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel<br/><span class='uniqueText'>(Décochez pour faire un don unique)</span>");
-		// auto check monthly gift, display recurrence info
-		$('#bboxdonation_recurrence_chkMonthlyGift').attr('checked', true);
-		$('.BBFormFieldRecurrenceInfo').css('display', 'block');
-
 	});
 	
 	// CSC popup content doesn't appear until link is clicked
