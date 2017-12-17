@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
 		$('#bboxdonation_comment_txtComments').attr('placeholder', 'Optionnel');
 		
-                $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel<br/><span class='uniqueText'>(Décochez pour faire un don unique)</span>");
+                $('#bboxdonation_recurrence_lblRecurringGift').html("J'aimerais devenir un donateur mensuel<br/><span class='uniqueText'>(Cochez pour devenir donateur mensuel)</span>");
 	});
 	
 	// CSC popup content doesn't appear until link is clicked
