@@ -1,9 +1,10 @@
 (function($) {
-	jQuery(document).ready(function($) {
+	$('#mongo-form').on('formReady', function() {
 
-	$('#bboxdonation_billing_txtFirstName').change(function() {
-		alert('change');
-	});
+		$('#bboxdonation_billing_txtFirstName').change(function() {
+			alert('change');
+		});
+	}
 
 
 	/* for first/last name */

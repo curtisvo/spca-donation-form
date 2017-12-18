@@ -1,6 +1,7 @@
 (function($) {
 jQuery(document).ready(function($) {
 	$('body #mongo-form').waitUntilExists(function() {
+		$('#mongo-form').trigger("formReady");
 		
 		// Update donation dollar amounts
 		$('#bboxdonation_gift_rdlstGivingLevels .BBFormRadioAmount').each(function(index, value){
