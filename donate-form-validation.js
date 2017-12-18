@@ -1,8 +1,9 @@
 (function($) {
 	$('#mongo-form').on('formReady', function() {
 
-		$('#bboxdonation_billing_txtFirstName').change(function() {
+		$('.BBFormTextbox').change(function() {
 			alert('change');
+			console.log('change');
 		});
 	});
 
