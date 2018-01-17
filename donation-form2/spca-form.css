@@ -1,0 +1,99 @@
+div .container {
+		/* https://css-tricks.com/perfect-full-page-background-image/ */
+		/* bg defined in wordpress page */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		font-family: 'Roboto', sans-serif;
+		display: table;
+		width: 100%;
+}
+
+#spca-link {
+  position: absolute;
+	right: 50px;	       
+	top: 30px;
+	color: black;
+	text-decoration: none;
+}
+
+#logo-donate {
+		position: absolute;
+		left: 50px;
+		top: 15px;
+		color: black;
+		display: table;
+		height: 49px;
+}
+
+#donate-now {
+		display: table-cell;
+		vertical-align: middle;
+		font-size: large;
+		font-weight: bold;
+		padding-left: 20px;
+}
+
+#difference-text {
+		color: black;
+		padding: 15px 17px;
+		font-size: xx-large;
+		font-weight: bold;
+}
+
+.form-div {
+		position: relative;
+		left: 5%;
+		padding-top: 2em;
+		min-height: 1550px;
+}
+
+.donate-form {
+	width: 500px;
+}
+
+.phone-gift {
+		padding: 30px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 5px;
+		margin-bottom: 15px;
+		font-weight: bold;
+		display: table;
+}
+
+.phone-img {
+	display: table-cell;
+}
+.phone-img img {
+	margin-right: 15px;
+}
+.text-div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.phone-number {
+	font-size: x-large;
+	margin-top: 10px;
+}
+
+.footer {
+		float: right;
+		color: black;
+		margin-bottom: 30px;
+		margin-right: 30px;
+}
+
+.uniqueText {
+	font-size: smaller;
+	font-weight: normal;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+/* hide wordpress's automatic p elements causing blackspace */
+#main > p {
+	display: none;
+}
