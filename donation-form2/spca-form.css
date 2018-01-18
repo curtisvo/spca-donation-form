@@ -47,6 +47,12 @@ div .container {
 	padding-left: 5%;
 }
 
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .form-div {
 	float: left;
 	width: 500px;
