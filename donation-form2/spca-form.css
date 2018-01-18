@@ -42,11 +42,23 @@ div .container {
 		font-weight: bold;
 }
 
+.wrapper {
+	margin-left: 500px;
+	padding-left: 5%;
+}
+
 .form-div {
-		position: relative;
-		left: 5%;
-		padding-top: 2em;
-		min-height: 1550px;
+	float: left;
+	width: 500px;
+	margin-left: -500px;
+	padding-top: 2em;
+	min-height: 1550px;
+}
+
+.campaign-description-col {
+	float: right;
+	width: 100%;
+	padding-top: 2em;
 }
 
 .donate-form {
