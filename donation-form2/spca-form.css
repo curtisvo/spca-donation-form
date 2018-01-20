@@ -62,15 +62,16 @@ div .container {
 }
 
 .campaign-description-col {
-	float: right;
-	width: 100%;
+	width: 650px;
 	padding-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .campaign-image {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	border: 1px solid #021a40;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .donate-form {
