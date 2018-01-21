@@ -68,6 +68,15 @@ div .container {
 	margin-right: auto;
 }
 
+.campaign-description-text > h3 {
+	font-size: 2em;
+}
+
+.campaign-description-text > p {
+	font-size: 1.5em;
+	line-height: initial;
+}
+
 .campaign-image {
 	border: 1px solid #021a40;
 	margin-bottom: 40px;
