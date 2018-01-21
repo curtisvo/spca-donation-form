@@ -37,9 +37,10 @@ div .container {
 
 #difference-text {
 		color: black;
-		padding: 15px 17px;
-		font-size: xx-large;
+		font-size: x-large;
 		font-weight: bold;
+		padding-left: 6%;
+		padding-top: 2em;
 }
 
 .wrapper {
@@ -80,7 +81,6 @@ div .container {
 .campaign-image {
 	border: 1px solid #021a40;
 	margin-bottom: 40px;
-	margin-top: 40px;
 }
 
 .donate-form {
