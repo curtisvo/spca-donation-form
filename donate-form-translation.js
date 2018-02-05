@@ -81,14 +81,14 @@ jQuery(document).ready(function($) {
 	});
 
 	$('body #bboxdonation_divThanks').waitUntilExists(function() {
-		$('.GLShareHeader').html('Help start a givalanche of good');
-		$('.GLBodyText').html(function(index,html){
-		    html = html.replace('Share &amp; ask your friends and family to chip in.','Partagez &amp; demandez à vos amis de participer.');
-		    html = html.replace('As others give, your gift will snowball into a Givalanche.','test-');
-		    return html.replace('We\'ll keep you updated as your Givalanche grows!','test-We\'ll keep you updated as your Givalanche grows!');
-		});
-		$('.GLShareTitle').html('Share to get the Givalanche rolling:');
-		$('.GLCopyLinkButtonText').html('Copier le lien');
+//		$('.GLShareHeader').html('Help start a givalanche of good');
+//		$('.GLBodyText').html(function(index,html){
+//		    html = html.replace('Share &amp; ask your friends and family to chip in.','Partagez &amp; demandez à vos amis de participer.');
+//		    html = html.replace('As others give, your gift will snowball into a Givalanche.','test-');
+//		    return html.replace('We\'ll keep you updated as your Givalanche grows!','test-We\'ll keep you updated as your Givalanche grows!');
+//		});
+//		$('.GLShareTitle').html('Share to get the Givalanche rolling:');
+//		$('.GLCopyLinkButtonText').html('Copier le lien');
 		$('div.BBFormConfirmationTransactionDetails span').html(function(index, html){
 			html = html.replace('Your gift details:', 'Détails de votre don:');
 			html = html.replace('Amount:', 'Montant:');
