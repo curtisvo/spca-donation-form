@@ -82,21 +82,15 @@ jQuery(document).ready(function($) {
 	});
 
 	$('body #bboxdonation_divThanks').waitUntilExists(function() {
-		$('.GLShareHeader').html('Help start a givalanche of good');
-		$('.GLBodyText').html(function(index,html){
-		    html = html.replace('Share & ask your friends and family to chip in.','Partagez & demandez à vos amis de participer.');
-		    html =  html.replace('As others give, your gift will snowball into a Givalanche.','test-');
-		    return html.replace('We\'ll keep you updated as your Givalanche grows!','test-We\'ll keep you updated as your Givalanche grows!');
-		});
-		$('.GLShareTitle').html('Share to get the Givalanche rolling:');
-		$('.GLCopyLinkButtonText').html('Copier le lien');
 		$('div.BBFormConfirmationTransactionDetails span').html(function(index, html){
 			html = html.replace('Your gift details:', 'Détails de votre don:');
 			html = html.replace('Amount:', 'Montant:');
 			html = html.replace('Payment Method:', 'Méthode de paiement:');
 			html = html.replace('Designation:', 'Appellation:');
+			return html;
 		});
 		$('#difference-text').hide();
+		dataLayer.push({'event': 'payment_success'});
 	});
 
 	$('body .BBFormInlineErrorItem').waitUntilExists(function() {
