@@ -63,7 +63,7 @@ div .container {
 .campaign-description-col {
 	width: 750px;
 	padding-top: 2em;
-	margin-left: 70px;
+	margin-left: auto;
 	margin-right: auto;
 }
 
